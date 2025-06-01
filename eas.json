@@ -1,10 +1,10 @@
 {
   "build": {
     "production": {
+      "projectRootDirectory": "frontend",
       "distribution": "store",
       "android": {
         "buildType": "apk"
-       
       }
     }
   }
