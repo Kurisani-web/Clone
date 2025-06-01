@@ -1,10 +1,12 @@
 {
   "expo": {
     "name": "frontend",
-    "slug": "frontend",
+    "slug": "feedme",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "scheme": "Feedme",
+    "owner": "chefu",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,9 +20,16 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.kurisani.feedme",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "fb842128-a034-4b43-830f-98c0e113b681"
       }
     },
     "web": {
